@@ -1,0 +1,7 @@
+jobs:
+  - name: foobar
+    type: runSh
+    steps:
+      - TASK:
+          script:
+            - echo "Hello, World!"
